@@ -100,10 +100,7 @@ So I run:
 **Windows PowerShell**
 
 ```powershell
-npx ts-node src/cli/index.ts `
-  --file-key ELnV78L8DjKEaujZpvtLwO `
-  --node-id 0:1 `
-  --out dist/softlight
+npx ts-node src/cli/index.ts --file-key ELnV78L8DjKEaujZpvtLwO --node-id 0:1 --out dist/softlight
 ```
 
 ---
