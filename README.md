@@ -102,7 +102,3 @@ For this assignment, the generated files for the provided Figma file are:
 * Complex vector shapes / boolean ops are treated as simple blocks, not full SVG paths.
 * Only basic effects are supported (mainly drop shadows).
 * Text nodes are rendered as `<p>`; I’m not guessing headings or other semantic tags.
-
-```
-::contentReference[oaicite:0]{index=0}
-```
