@@ -4,7 +4,7 @@ Small tool that takes a Figma frame and exports it as static HTML + CSS.
 
 I used it for the Softlight sign-in screen, but it works for any Figma file + frame that the token can access.
 
----
+
 
 ## What it does
 
@@ -18,16 +18,6 @@ I used it for the Softlight sign-in screen, but it works for any Figma file + fr
 
 Goal: look visually like the Figma mock (pixel-ish accurate), not responsive.
 
----
-
-## Setup
-
-Install dependencies:
-
-```bash
-npm install
-
----
 
 ## Known limitations
 
@@ -36,6 +26,14 @@ npm install
 - Complex vector shapes / boolean operations aren’t converted to full SVG paths – they’re treated as simple blocks.
 - Only basic effects are handled (mainly drop shadows).
 - Text nodes are rendered as `<p>` tags; I’m not trying to infer headings/semantic tags.
+
+## Setup
+
+Install dependencies:
+
+```bash
+npm install
+
 
 
 
