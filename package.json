@@ -1,0 +1,20 @@
+{
+  "name": "softlight-figma-to-html",
+  "version": "1.0.0",
+  "description": "Small Figma → HTML/CSS export tool for the Softlight take-home.",
+  "main": "dist/cli/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/cli/index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "yargs": "^17.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/yargs": "^17.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.5.0"
+  }
+}
